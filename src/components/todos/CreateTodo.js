@@ -17,6 +17,7 @@ class CreateTodo extends Component {
   }
 
   handleChange(event) {
+    // debugger
     this.setState({
       text: event.target.value
     });
